@@ -3,9 +3,9 @@
 <openbox_menu xmlns="http://openbox.org/3.4/menu">
 
 <menu id="apps-term-menu" label="Terminals">
-  <item label="LilyTerm">
+  <item label="LXTerminal">
     <action name="Execute">
-      <command>lilyterm</command>
+      <command>lxterminal</command>
     </action>
   </item>
 </menu>
@@ -30,7 +30,6 @@
   <separator label="Applications" />
   <menu id="apps-net-menu"/>
   <menu id="apps-term-menu"/>
-  <separator label="System" />
   <menu id="apps-part-menu"/>
   <separator />
   <item label="Log Out">
